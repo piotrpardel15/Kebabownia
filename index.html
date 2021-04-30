@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+ <div class="kebab">
+    <img src="kebab.png" alt="">
+ </div>
+
+<div class="kont">
+    <h2>Formularz kontaktowy</h2>
+</div>
+
+ <div class="formularz">
+     <div><label for="name">Imię i nazwisko</label></div>
+     <div><input type="text" name="name" id="name" class="formField" onchange="contact(value)"></div>
+     <div><label for="phone">Numer telefonu</label></div>
+     <div><input type="text" name="phone" id="phone" class="formField" onchange="contact(value)"></div>
+     <div><label for="message">Adres zamieszkania</label></div>
+     <div><input type="message" name="message" id="address" class="formField" onchange="contact(value)"></div>
+     <div><label for="email">Adres email</label></div>
+     <div><input type="text" name="email" id="email" class="formField" onchange="contact(value)"></div>
+     <div><label for="message">Treść wiadomości</label></div>
+     <div><textarea name="message" id="message" class="formField" onchange="contact(value)"></textarea></div>
+</div>
+
+<div class="select">
+<select name="" id="" onchange="menu(value)">
+    <option value="">Wybierz danie</option>
+    <option value="dish1">Kebab w bułce</option>
+    <option value="dish2">Kebab Rollo</option>
+    <option value="dish3">Kebab Box</option>
+    <option value="dish4">Kebab na talerzu</option>
+    <option value="dish5">Zapiekanka</option>
+    <option value="dish6">Burger</option>
+    <option value="dish7">Nuggetsy</option>
+</select>
+
+<select name="" id="" onchange="menu(value)">
+    <option value="">Napoje</option>
+    <option value="drink1">Cola</option>
+    <option value="drink2">Pepsi</option>
+    <option value="drink3">Mirinda</option>
+    <option value="drink4">Fanta</option>
+    <option value="drink5">Sprite</option>
+    <option value="drink6">7UP</option>
+</select>
+</div>
+
+<div class="send"><button>Wyślij</button></div>
+
+<div class="menu"><img src="menu.jpg" alt=""></div>
+
+</body>
+</html>

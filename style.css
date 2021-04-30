@@ -1,0 +1,29 @@
+body {
+    background-image: url(https://krytykakulinarna.com/wp-content/uploads/2020/03/kebab_przepis_4.jpg);
+}
+.kebab {
+    margin-left: 30%
+}
+
+.formularz {
+    margin-left: 42%;
+}
+
+.select {
+    margin-left: 42%;
+    margin-top: 5px;
+}
+
+.send {
+    margin-left: 42%;
+    margin-top: 5px;
+}
+
+.kont {
+    margin-left: 40%;
+}
+
+.menu {
+    margin-left: 20%;
+    margin-top: 5px;
+}
